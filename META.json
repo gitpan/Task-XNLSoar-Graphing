@@ -37,6 +37,8 @@
       },
       "runtime" : {
          "requires" : {
+            "GraphViz" : "0",
+            "Path::Class" : "0",
             "Soar::WM" : "0.03",
             "opts" : "0",
             "perl" : "5.010",
@@ -55,7 +57,7 @@
    "provides" : {
       "Task::XNLSoar::Graphing" : {
          "file" : "lib/Task/XNLSoar/Graphing.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -69,13 +71,13 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_BuiltWith" : {
       "modules" : {
          "File::Find" : "1.20",
          "File::Temp" : "0.22",
          "Module::Build" : "0.4002",
-         "Test::CPAN::Meta" : "0.22",
+         "Test::CPAN::Meta" : "NA(possibly not installed)",
          "Test::More" : "0.98",
          "perl" : "NA(skipped: perl)",
          "strict" : "1.07",

@@ -4,7 +4,7 @@ Task::XNLSoar::Graphing - BUNDLE ALL MODULES NECESSARY FOR XNL-SOAR GRAPHING
 
 # VERSION
 
-version 0.01
+version 0.02
 
 # SYNOPSIS
 
@@ -21,6 +21,12 @@ This task is merely a placeholder to pull all modules necessary for XNL-Soar gra
 ### [Soar::WM](http://search.cpan.org/perldoc?Soar::WM) 0.03
 
 ### [opts](http://search.cpan.org/perldoc?opts)
+
+### [Path::Class](http://search.cpan.org/perldoc?Path::Class)
+
+## Install only to retrieve prerequisites
+
+### [GraphViz](http://search.cpan.org/perldoc?GraphViz)
 
 # AUTHOR
 

@@ -12,7 +12,7 @@ use strict;
 use warnings;
 use 5.010;
 
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 1;
 
@@ -26,7 +26,7 @@ Task::XNLSoar::Graphing - BUNDLE ALL MODULES NECESSARY FOR XNL-SOAR GRAPHING
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -44,7 +44,11 @@ This task is merely a placeholder to pull all modules necessary for XNL-Soar gra
 
 =head3 L<opts>
 
-=pkg Path::Class
+=head3 L<Path::Class>
+
+=head2 Install only to retrieve prerequisites
+
+=head3 L<GraphViz>
 
 =head1 AUTHOR
 
