@@ -20,13 +20,14 @@ my %module_build_args = (
     "Nathan Glenn <garfieldnate\@gmail.com>"
   ],
   "dist_name" => "Task-XNLSoar-Graphing",
-  "dist_version" => "0.02",
+  "dist_version" => "0.03",
   "license" => "perl",
   "module_name" => "Task::XNLSoar::Graphing",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
     "GraphViz" => 0,
+    "JSON::XS" => 0,
     "Path::Class" => 0,
     "Soar::WM" => "0.03",
     "opts" => 0,

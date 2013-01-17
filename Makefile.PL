@@ -26,13 +26,14 @@ my %WriteMakefileArgs = (
   "NAME" => "Task::XNLSoar::Graphing",
   "PREREQ_PM" => {
     "GraphViz" => 0,
+    "JSON::XS" => 0,
     "Path::Class" => 0,
     "Soar::WM" => "0.03",
     "opts" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }

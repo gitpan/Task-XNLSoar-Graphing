@@ -51,6 +51,7 @@ sub pmver {
 eval { $v .= pmver('File::Find','any version') };
 eval { $v .= pmver('File::Temp','any version') };
 eval { $v .= pmver('GraphViz','any version') };
+eval { $v .= pmver('JSON::XS','any version') };
 eval { $v .= pmver('Module::Build','0.3601') };
 eval { $v .= pmver('Path::Class','any version') };
 eval { $v .= pmver('Soar::WM','0.03') };

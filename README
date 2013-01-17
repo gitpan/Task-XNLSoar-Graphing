@@ -3,7 +3,7 @@ NAME
     GRAPHING
 
 VERSION
-    version 0.02
+    version 0.03
 
 SYNOPSIS
         perl -MCPANPLUS -e 'install Task::XNLSoar::Graphing'
@@ -19,6 +19,8 @@ TASK CONTENTS
    Path::Class
   Install only to retrieve prerequisites
    GraphViz
+  Only necessary if you want JSON graphing
+   JSON::XS
 AUTHOR
     Nathan Glenn <garfieldnate@gmail.com>
 

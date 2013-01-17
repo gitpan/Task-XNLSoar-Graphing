@@ -22,9 +22,10 @@ no_index:
 provides:
   Task::XNLSoar::Graphing:
     file: lib/Task/XNLSoar/Graphing.pm
-    version: 0.02
+    version: 0.03
 requires:
   GraphViz: 0
+  JSON::XS: 0
   Path::Class: 0
   Soar::WM: 0.03
   opts: 0
@@ -33,9 +34,10 @@ requires:
   warnings: 0
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Task-XNLSoar-Graphing
-  homepage: http://search.cpan.org/dist/Task-XNLSoar-Graphing/
+  homepage: https://github.com/garfieldnate/Task-XNLSoar-Grapher
   license: http://dev.perl.org/licenses/
-version: 0.02
+  repository: https://github.com/garfieldnate/Task-XNLSoar-Grapher.git
+version: 0.03
 x_BuiltWith:
   modules:
     File::Find: 1.20
